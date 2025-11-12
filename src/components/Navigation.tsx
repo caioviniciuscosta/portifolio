@@ -71,7 +71,7 @@ export const Navigation = () => {
               </svg>
             </a>
             <a
-              href="mailto:caio@email.com"
+              href="mailto:caiovinicius.jrf@gmail.com"
               className="w-5 h-5 text-muted-foreground hover:text-foreground transition-colors duration-200"
             >
               <svg fill="currentColor" viewBox="0 0 24 24">

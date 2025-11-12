@@ -4,10 +4,17 @@ import healthAppImage from "../assets/healthAppImage.jpg";
 import spaceFashion from "../assets/spaceFashion.jpg";
 import imusic from "../assets/imusic.jpg";
 import solarEnergy from "../assets/solarEnergy.png";
-import game from "../assets/game.png";
+import montaki from "../assets/montaki.png";
 
 export const Projects = () => {
   const projects = [
+    {
+      title: "Montaki",
+      subtitle: "Um jeito fácil de contratar.",
+      image: montaki,
+      year: "2025",
+      link: "https://www.behance.net/gallery/238368699/Montaki",
+    },
     {
       title: "Way Emergency",
       subtitle: "O aplicativo conecta informações pessoais do usuário a dispositivos, facilitando acesso rápido em emergências.",
@@ -40,15 +47,9 @@ export const Projects = () => {
       title: "Neobank",
       subtitle: "",
       image: neobankImage,
+      link: "https://www.behance.net/gallery/149635457/Neo-Bank-Digital-Banking",
       year: "2022"
     },
-    {
-      title: "Loja de Jogos",
-      subtitle: "",
-      image: game,
-      link: "https://www.behance.net/gallery/125066301/Loja-de-Jogos",
-      year: "2021"
-    }
   ];
 
   return (
